@@ -1,0 +1,20 @@
+{
+  "name": "cn-compute-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "中文算力产业文本证据整理与研判服务",
+  "engines": {
+    "node": "22.23.4"
+  },
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "npm run clean && node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "test": "npm run build && node --experimental-sqlite --test tests/**/*.test.mjs",
+    "demo": "npm run build && node --experimental-sqlite dist/cli.js demo fixtures/compute-brief.json"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.1",
+    "typescript": "5.9.3"
+  }
+}

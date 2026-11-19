@@ -1,0 +1,19 @@
+{
+  "acceptAll": true,
+  "documents": [
+    {
+      "id": "demo-hubei-sept",
+      "title": "湖北算力资源季度观察（合成样本）",
+      "sourceUrl": "https://example.invalid/reports/hubei-compute-september",
+      "publishedAt": "2026-11-19T09:00:00+08:00",
+      "body": "截至2026年9月底，湖北智能算力规模达到120 EFLOPS，同比增长18%。湖北已建成18条算力传输通道。"
+    },
+    {
+      "id": "demo-platform",
+      "title": "国家算力平台运营摘要（合成样本）",
+      "sourceUrl": "https://example.invalid/reports/platform-summary",
+      "publishedAt": "2026-11-19T10:00:00+08:00",
+      "body": "截至2026年9月底，国家算力互联网服务平台汇聚资源为362 EFLOPS。平台面向全国分配算力标识1198万条。"
+    }
+  ]
+}
